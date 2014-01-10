@@ -49,7 +49,7 @@ sonnet18 ="Shall I compare thee to a summer’s day? \n"
 	++ " So long lives this and this gives life to thee."
 
 average :: [Int] -> Rational
-average [] = error "empty"
+average [] = error "empty "
 average xs =toRational(sum xs) / toRational  (length xs)
 
 
